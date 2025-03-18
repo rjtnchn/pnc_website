@@ -99,3 +99,24 @@ nav ul.action-menu .nav-item .nav-link {
   text-decoration: underline;
   opacity: 60%;
 }
+
+/* Scroll Animations */
+
+.autoShow {
+  opacity: 0;
+  transform: translateY(200px) scale(0.3);
+  transition: all 0.8s ease-in-out;
+}
+
+.autoShow.active {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.cards:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.cards:nth-child(3) {
+  transition-delay: 400ms;
+}

@@ -12,6 +12,9 @@
 </head>
 
 <body>
+
+    <!-- NAVBAR -->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="index.html">
@@ -34,9 +37,6 @@
                     <a class="nav-link" href="#gallery">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
                 </li>
             </ul>
@@ -54,6 +54,7 @@
         </div>
     </nav>
 
+    <!-- BOOTSTRAP CAROUSEL -->
 
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade mb-3" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -107,23 +108,25 @@
 
         <div class="main-container mx-5 d-block">
 
-            <div class="container text-center p-5 m-5 ">
-                <div class="row">
-                    <div class="col p-4 m-5 border border-3 rounded">
+            <!-- INFORMATION CARDS -->
+
+            <div class="container text-center mx-auto d-block ">
+                <div class="row cards">
+                    <div class="col p-4 m-5 border border-3 rounded cards autoShow">
                         <h2 class="fw-normal">Heading</h2>
                         <p>Some representative placeholder content for the three columns of text below the carousel.
                             This is
                             the first column.</p>
                         <p><a class="btn btn-secondary" href="#">View details »</a></p>
                     </div>
-                    <div class="col  p-4 m-5 border border-3 rounded">
+                    <div class="col  p-4 m-5 border border-3 rounded cards autoShow">
                         <h2 class="fw-normal">Heading</h2>
                         <p>Some representative placeholder content for the three columns of text below the carousel.
                             This is
                             the first column.</p>
                         <p><a class="btn btn-secondary" href="#">View details »</a></p>
                     </div>
-                    <div class="col p-4 m-5 border border-3 rounded">
+                    <div class="col p-4 m-5 border border-3 rounded cards autoShow">
                         <h2 class="fw-normal">Heading</h2>
                         <p>Some representative placeholder content for the three columns of text below the carousel.
                             This is
@@ -133,7 +136,9 @@
                 </div>
             </div>
 
-            <div class="pnc-section m-5">
+            <!-- WELCOME TEXT SECTION -->
+
+            <div class="pnc-section m-5 autoShow">
                 <h1 class="section-title text-center text-success">The Pride of Cabuyao: Your Journey Starts Here.</h1>
                 <div class="section-title-desc text-center text-primary-emphasis">Join us as we mix passion, creativity,
                     and knowledge to create future leaders.</div>
@@ -141,20 +146,41 @@
 
             <hr class="divider">
 
-            <div class="d-flex flex-wrap justify-content-around m-5 ">
-                <div class="col-md-5">
+            <div class="d-flex flex-wrap justify-content-around m-5 autoShow">
+                <div class="col-md-5 autoShow">
                     <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span
                             class="text-body-secondary">It’ll blow your mind.</span></h2>
                     <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
                         prose here.</p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 autoShow">
                     <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
                         <title>Placeholder</title>
                         <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
-                            fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+                            fill="var(--bs-secondary-color)" dy=".3em"></text>
+                    </svg>
+                </div>
+            </div>
+
+            <hr class="divider">
+
+            <!-- FEATURETTES -->
+
+            <div class="d-flex flex-wrap justify-content-around m-5">
+                <div class="  col-md-5 order-md-2 autoShow">
+                    <h2 class=" w-80 fw-normal lh-1">Oh yeah, it’s that good.</h2>
+                    <p class=" lead">More placeholder content here to give you an idea of
+                        how this layout would work with some actual real-world content in place.</p>
+                </div>
+                <div class="col-md-5 order-md-1 autoShow">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
+                            fill="var(--bs-secondary-color)" dy=".3em"></text>
                     </svg>
                 </div>
             </div>
@@ -162,45 +188,99 @@
             <hr class="divider">
 
             <div class="d-flex flex-wrap justify-content-around m-5">
-                <div class="  col-md-5 order-md-2">
-                    <h2 class=" w-80 fw-normal lh-1">Oh yeah, it’s that good.</h2>
-                    <p class= " lead">More placeholder content here to give you an idea of
-                        how this layout would work with some actual real-world content in place.</p>
-                </div>
-                <div class="col-md-5 order-md-1">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
-                            fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-                    </svg>
-                </div>
-            </div>
-
-            <hr class="divider">
-
-            <div class="d-flex justify-content-around m-5">
-                <div class=" col-md-5">
+                <div class=" col-md-5 autoShow">
                     <h2 class="w-80 fw-normal lh-1">And lastly, this one. <span
                             class="text-body-secondary">Checkmate.</span></h2>
                     <p class=" lead">And yes, this is the last block of representative placeholder content. Again, not
                         really intended to be actually read, simply here to give you a better view of what this would
                         look like with some actual content. Your content.</p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 autoShow">
                     <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        height="500" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
                         <title>Placeholder</title>
                         <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
-                            fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+                            fill="var(--bs-secondary-color)" dy=".3em"></text>
                     </svg>
                 </div>
             </div>
         </div>
 
         <hr class="divider">
+
+        <h2 class="h1-responsive font-weight-bold text-center my-4 text-success autoShow">Chat
+            with University of Cabuyao</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5 autoShow">Dangal Greetings!
+            How can we help you?</p>
+
+        <div class="row mx-5 cards">
+            <!--Grid column-->
+            <div class="col-md-6 mb-md-0 mb-5 cards autoShow">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your
+                                    name</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your
+                                    email</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-md-12">
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control
+            md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                </form>
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+
+            <div class="col-md-6 text-center cards autoShow">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3866.892081919823!2d121.13128317509964!3d14.259515486187368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d88258da3383%3A0x3db6c2402700f58f!2sPamantasan%20ng%20Cabuyao!5e0!3m2!1sen!2sph!4v1742258502647!5m2!1sen!2sph"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+
+        <hr class="divider">
+
+        <!-- FOOTER -->
 
         <div class="footer d-flex justify-content-around">
             <div class="side">
@@ -210,10 +290,10 @@
             <div class="side"><img src="assets/footer-img.png" alt=""></div>
         </div>
         <div class="copyright">
-           <p>Copyright 2025 | University of Cabuyao Laguna | All Rights Reserved</p>
+            <p>Copyright 2025 | University of Cabuyao Laguna | All Rights Reserved</p>
         </div>
 
-
+        <script src="app.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
